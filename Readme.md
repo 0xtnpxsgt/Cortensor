@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/5980218d-ac4c-411b-8a34-048eed7c85c7)
+
+
 # Cortensor Node Kurulum : 
 
 ## Gereksinimler : 
