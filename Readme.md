@@ -65,3 +65,42 @@ docker version
 ipfs version
 ```
 
+## Deploy User'a Geçiş : 
+
+```bash
+sudo su deploy
+```
+
+## Ana Dizine Çıkış : 
+```bash
+cd ~/
+```
+
+## Key Oluşturma : 
+
+```bash
+/usr/local/bin/cortensord ~/.cortensor/.env tool gen_key
+```
+
+## Kayıt Edelim : 
+```bash
+/usr/local/bin/cortensord ~/.cortensor/.env tool register
+```
+
+## Sağlamasını Yapalım : 
+
+```bash
+/usr/local/bin/cortensord ~/.cortensor/.env tool verify
+```
+
+## Başlatalım : 
+
+```bash
+sudo systemctl start cortensor
+```
+
+## Durdurmak İsterseniz : 
+
+```bash
+sudo systemctl stop cortensor
+```
