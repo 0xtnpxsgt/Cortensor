@@ -45,7 +45,23 @@ cd installer
 ./install-ipfs.sh
 ```
 
+## LS : 
+
 ```bash
-./install.sh
+ls -al /usr/local/bin/cortensord
+```
+
+```bash
+ls -al /etc/systemd/system/cortensor.service
+```
+
+## Docker Version - IPFS Version : 
+
+```bash
+docker version
+```
+
+```bash
+ipfs version
 ```
 
