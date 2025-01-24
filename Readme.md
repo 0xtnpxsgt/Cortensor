@@ -44,7 +44,9 @@ cd installer
 ```bash
 ./install-ipfs-linux.sh
 ```
-
+```bash
+./install-linux.sh
+```
 ## LS : 
 
 ```bash
