@@ -47,24 +47,19 @@ cd installer
 ```bash
 ./install-linux.sh
 ```
-## LS : 
+- Deploy kullanıcısı için şifre oluşturun aklınızda kalıcı olsun.
+## Taşıma : 
 
 ```bash
-ls -al /usr/local/bin/cortensord
+cd
 ```
 
 ```bash
-ls -al /etc/systemd/system/cortensor.service
-```
-
-## Docker Version - IPFS Version : 
-
-```bash
-docker version
+cp -Rf ./installer /home/deploy/installer
 ```
 
 ```bash
-ipfs version
+chown -R deploy.deploy /home/deploy/installer
 ```
 
 ## Deploy User'a Geçiş : 
