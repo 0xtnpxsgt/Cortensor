@@ -39,10 +39,10 @@ cd installer
 ## Docker - Ipfs - Install .sh : 
 
 ```bash
-./install-docker.sh
+./install-docker-ubuntu.sh
 ```
 ```bash
-./install-ipfs.sh
+./install-ipfs-linux.sh
 ```
 
 ## LS : 
