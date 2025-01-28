@@ -111,10 +111,10 @@ sudo systemctl start cortensor
 
 ## After running node, post in this discord channel too :
 
-miner address : your_miner_address
-staking address : your_staking_wallet_address
-discord : your_discord_username
-telegram : your_telegram_usernam
+- miner address : your_miner_address
+- staking address : your_staking_wallet_address
+- discord : your_discord_username
+- telegram : your_telegram_usernam
 
 ## If you want to stop:
 
