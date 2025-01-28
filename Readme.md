@@ -107,8 +107,19 @@ cd ~/
 sudo systemctl start cortensor
 ```
 
+- Monitor Node : https://dashboard-alpha.cortensor.network/
+
+## After running node, post in this discord channel too :
+
+miner address : your_miner_address
+staking address : your_staking_wallet_address
+discord : your_discord_username
+telegram : your_telegram_usernam
+
 ## If you want to stop:
 
 ```bash
 sudo systemctl stop cortensor
 ```
+
+
